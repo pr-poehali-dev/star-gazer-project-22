@@ -28,8 +28,8 @@ export default function Hero() {
 
       <div className="relative z-10 text-center text-white px-6">
         <p className="text-xs md:text-sm uppercase tracking-[0.4em] mb-4 opacity-70">Новый альбом уже в эфире</p>
-        <h1 className="text-6xl md:text-8xl lg:text-[10rem] font-black tracking-tighter mb-6 leading-none">
-          GRIM
+        <h1 className="text-5xl md:text-7xl lg:text-9xl font-black tracking-tighter mb-6 leading-none">
+          BLAST M.S.
         </h1>
         <p className="text-base md:text-lg max-w-xl mx-auto opacity-80 font-light tracking-wide">
           Слова острее ножа. Ритм тяжелее бетона.
