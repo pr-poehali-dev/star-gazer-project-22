@@ -19,19 +19,24 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/a6905b7c-2609-470f-a47e-feff25b9d34a/files/22b7a617-86ba-4216-9333-2bb703fbe964.jpg"
+          alt="Urban night cityscape"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/50" />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="text-xs md:text-sm uppercase tracking-[0.4em] mb-4 opacity-70">Новый альбом уже в эфире</p>
+        <h1 className="text-6xl md:text-8xl lg:text-[10rem] font-black tracking-tighter mb-6 leading-none">
+          GRIM
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-base md:text-lg max-w-xl mx-auto opacity-80 font-light tracking-wide">
+          Слова острее ножа. Ритм тяжелее бетона.
         </p>
+        <button className="mt-10 border border-white text-white uppercase text-sm tracking-widest px-8 py-3 hover:bg-white hover:text-black transition-all duration-300">
+          Слушать
+        </button>
       </div>
     </div>
   );
