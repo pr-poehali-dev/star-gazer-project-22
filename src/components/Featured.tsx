@@ -13,8 +13,11 @@ export default function Featured() {
         <p className="text-lg lg:text-2xl mb-6 text-neutral-900 leading-relaxed">
           Родом из Кропоткина Кавказского района. Вырос на Кубани, окончил 9 классов в ст. Казанской, затем — училище РЖД и служба в армии.
         </p>
-        <p className="text-lg lg:text-2xl mb-8 text-neutral-900 leading-relaxed">
+        <p className="text-lg lg:text-2xl mb-6 text-neutral-900 leading-relaxed">
           Музыкальный путь начал в 2025 году. Жизненный опыт — единственный источник вдохновения. Каждый трек — страница пройденного пути.
+        </p>
+        <p className="text-sm uppercase tracking-widest text-neutral-500 mb-8">
+          Слова, музыка, биты — Михаил Сидненко
         </p>
         <div className="flex flex-col sm:flex-row gap-3">
           <a
