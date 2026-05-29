@@ -16,9 +16,24 @@ export default function Featured() {
         <p className="text-lg lg:text-2xl mb-8 text-neutral-900 leading-relaxed">
           Музыкальный путь начал в 2025 году. Жизненный опыт — единственный источник вдохновения. Каждый трек — страница пройденного пути.
         </p>
-        <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-widest">
-          Слушать на Яндекс Музыке
-        </button>
+        <div className="flex flex-col sm:flex-row gap-3">
+          <a
+            href="https://music.yandex.ru/album/42116603/track/151454624"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer uppercase tracking-widest text-center"
+          >
+            Яндекс Музыка
+          </a>
+          <a
+            href="https://vk.com/music/album/-2000608851_27608851_04c5c52dcdd09f02c7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-black border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-black hover:text-white cursor-pointer uppercase tracking-widest text-center"
+          >
+            ВК Музыка
+          </a>
+        </div>
       </div>
     </div>
   );
