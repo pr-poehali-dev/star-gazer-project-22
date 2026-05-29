@@ -10,9 +10,11 @@ export default function Featured() {
       </div>
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
         <h3 className="uppercase mb-4 text-sm tracking-widest text-neutral-500">Об артисте</h3>
-        <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
-          Blast M.S. — голос улиц и андеграунда. Каждый трек — исповедь, каждая строфа — документ эпохи.
-          Музыка без компромиссов.
+        <p className="text-lg lg:text-2xl mb-6 text-neutral-900 leading-relaxed">
+          Родом из Кропоткина Кавказского района. Вырос на Кубани, окончил 9 классов в ст. Казанской, затем — училище РЖД и служба в армии.
+        </p>
+        <p className="text-lg lg:text-2xl mb-8 text-neutral-900 leading-relaxed">
+          Музыкальный путь начал в 2025 году. Жизненный опыт — единственный источник вдохновения. Каждый трек — страница пройденного пути.
         </p>
         <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-widest">
           Слушать на Яндекс Музыке
