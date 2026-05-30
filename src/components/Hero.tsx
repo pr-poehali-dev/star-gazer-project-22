@@ -27,7 +27,6 @@ export default function Hero() {
       </motion.div>
 
       <div className="relative z-10 text-center text-white px-6">
-        <p className="text-xs md:text-sm uppercase tracking-[0.4em] mb-4 opacity-70">Новый альбом уже в эфире</p>
         <h1 className="text-5xl md:text-7xl lg:text-9xl font-black tracking-tighter mb-6 leading-none">
           BLAST M.S.
         </h1>
