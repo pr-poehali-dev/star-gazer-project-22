@@ -33,9 +33,14 @@ export default function Hero() {
         <p className="text-base md:text-lg max-w-xl mx-auto opacity-80 font-light tracking-wide">
           Голос тех, кто молчал слишком долго.
         </p>
-        <button className="mt-10 border border-white text-white uppercase text-sm tracking-widest px-8 py-3 hover:bg-white hover:text-black transition-all duration-300">
+        <a
+          href="https://music.yandex.ru/artist/25981220"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-10 border border-white text-white uppercase text-sm tracking-widest px-8 py-3 hover:bg-white hover:text-black transition-all duration-300"
+        >
           Слушать
-        </button>
+        </a>
       </div>
     </div>
   );
