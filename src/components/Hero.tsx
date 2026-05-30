@@ -31,7 +31,7 @@ export default function Hero() {
           BLAST M.S.
         </h1>
         <p className="text-base md:text-lg max-w-xl mx-auto opacity-80 font-light tracking-wide">
-          Слова острее ножа. Ритм тяжелее бетона.
+          Голос тех, кто молчал слишком долго.
         </p>
         <button className="mt-10 border border-white text-white uppercase text-sm tracking-widest px-8 py-3 hover:bg-white hover:text-black transition-all duration-300">
           Слушать
